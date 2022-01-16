@@ -1,5 +1,6 @@
 #include "bits/stdc++.h"
-
+#pragma GCC optimize("O3")
+#pragma GCC target("sse4")
 #pragma GCC target("sse4")
 #pragma GCC target("avx2")
 #pragma GCC optimization("O3")
@@ -100,4 +101,11 @@ int main()
 }
 
 void solve(){
+    
 }
+
+/*
+**debug not work with bitset priority queue
+**be careful while using ternery operator , use bracket to enclose conditiom
+**
+*/
